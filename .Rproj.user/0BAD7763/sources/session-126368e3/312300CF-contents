@@ -8,3 +8,4 @@ dim(star)
 star$reading
 mean(star$reading)
 mean(star$graduated)
+median(star$graduated)
