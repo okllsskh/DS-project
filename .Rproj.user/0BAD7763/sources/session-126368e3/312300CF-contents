@@ -1,0 +1,10 @@
+#setwd("C:/Users/USER/Dropbox/qh_SKLEE/DSS")
+# Session --> Set Working Directory --> To Source File Location
+star <- read.csv("STAR.csv")
+View(star)
+head(star)
+head(star, n = 3)
+dim(star)
+star$reading
+mean(star$reading)
+mean(star$graduated)
